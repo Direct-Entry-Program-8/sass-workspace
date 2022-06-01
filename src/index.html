@@ -6,8 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SASS Workspace</title>
     <link rel="stylesheet" href="scss/styles.scss">
+    <script defer type="module" src="./ts/main.ts"></script>
 </head>
-<body>
+<body class="white">
+    <header>
+        <div class="switch" id="sth-theme">
+            <label>
+            White
+            <input type="checkbox">
+            <span class="lever"></span>
+            Dark
+            </label>
+        </div>
+    </header>    
     <h1>Welcome to SASS Workspace</h1>
     <h2 class="var-interpolation">Variables + Interpolation - 1</h2>
     <h3>Variables + Interpolation - 2</h3>
