@@ -3,3 +3,39 @@
 *{
     font-family: 'Ubuntu', sans-serif;
 }
+
+/* 1. Variables and Interpolation */
+/* ============================== */
+
+/* Create a variable with a color as it's value and apply it to the h1 */
+
+/* Create a variable with the string value of 'interpolation' and use
+ * it to select the elements that has the class "var-interpolation",
+ * then apply a text color 
+*/
+
+/* Create a variable with a CSS property name then select the h3 and
+ * interpolate the property with a value
+ */
+
+/* 2. Nesting */
+/* ===========*/
+
+#paragraph-1{
+    background-color: red;
+}
+#paragraph-1 b{
+    font-size: 2rem;
+}
+#paragraph-1 span{
+    background-color: yellow;
+}
+#paragraph-1:hover{
+    color: white;
+}
+#paragraph-1:hover span{
+    color: green;
+    font-weight: bold;
+}
+
+/* Revamp above CSS using SASS nesting and parent referencing */
